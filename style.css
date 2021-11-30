@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  /* font-size: 62.5%; */
+  box-sizing: border-box;
+  background-color: #fff;
+}
+body {
+  font-family: "Raleway", "Lato", sans-serif;
+}
+
+/* LAYOUT */
+/* HEADER */
+header {
+  height: 20vh;
+  background-color: #e5e5e5;
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 4%;
+  height: 80vh;
+  background-color: #e5e5e5;
+}
+section {
+  background-color: #fff;
+}
+/* NAV-BAR */
+/* LOGO */
+.logo {
+  color: #3c64b1;
+  margin-top: 20px;
+}
+
+/* ELEMENTS STYLE */
+/* HEADINGS */
+h2,
+h3,
+h4,
+a,
+p {
+  color: #373f41;
+}
+h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  line-height: 50px;
+  letter-spacing: 1.5px;
+  font-size: 240%;
+}
+h3 {
+  width: 20%;
+  margin: auto;
+  font-size: 150%;
+  letter-spacing: 0.5px;
+  margin-bottom: 20px;
+}
+h4 {
+  margin-left: 100px;
+  margin-top: 4%;
+  margin-bottom: 20px;
+  letter-spacing: 0.5px;
+  word-spacing: 2px;
+}
+/* LINKS */
+a {
+  text-decoration: none;
+}
+/* PARAGRAPHS */
+p {
+  margin-bottom: 20px;
+  width: 90%;
+}
+
+/* BUTTONS */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3c64b1;
+  border-radius: 1px;
+  color: #fff;
+  font-weight: 600;
+}
+/* MAIN NAV LIST */
+.main-nav {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 5%;
+}
+.main-nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin-left: 15%;
+}
+.main-nav-list li {
+  margin-left: 45px;
+  margin-top: 25px;
+}
+.main-nav-list li a.btn {
+  color: #fff;
+  margin-top: -10px;
+  margin-left: 200px;
+}
+/* MAIN DIV */
+.solution {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px;
+}
+.solution .sol-1 {
+  width: 40%;
+}
+.trial-btn {
+  margin-top: 5%;
+}
+/* SCREEN */
+.screen {
+  width: 48%;
+  height: 80%;
+  border: 1px solid #3c64b1;
+  border-radius: 10px;
+  opacity: 0.3;
+  background-color: rgba(60, 100, 177, 0.1);
+}
+.line {
+  display: block;
+  height: 1px;
+  background-color: #3c64b1;
+  margin-top: 40px;
+}
+/* FEATURES */
+#features {
+  margin-top: 8%;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 30px;
+}
+.flex-container .box {
+  flex-basis: calc(100% / 3);
+}
+/* ICONS */
+svg {
+  width: 80%;
+  margin-top: 20px;
+}
